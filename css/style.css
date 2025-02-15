@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+}
+
+.nav-item {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensures full navbar height usage */
+    padding: 0; /* Removes extra spacing */
+}
+
+.navbar-brand img {
+    height: 90px; /* Adjust this as needed */
+    width: auto; /* Maintains aspect ratio */
+     filter: invert(1);
+}
+
+
+.flag {
+    max-height: 20px;
+    max-width: 20px;
+    margin-top: 10px;
+}
+
+.nav-link {
+color: white !important; /* White text */
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: transparent !important; /* No background */
+    color: white !important; /* White text */
+    font-weight: bold; /* Bold text */
+    font-size: 1.1em; /* Slightly bigger */
+}
+
+
+.nav-link.active {
+    color: black !important; /* Ensures text is readable */
+}
+
+.reserve-container {
+    position: relative;
+}
+
+.card-body {
+    transition: all 1s ease;
+}
+
+.card-body:hover {
+    transform: scale(1.05);
+}
+
+.reserve-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-reserve {
+    opacity: 0.4;
+    max-height: 750px;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.img-slider {
+    min-height: 320px;
+}
+
+.navMenu {
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.map {
+    height: 320px;
+}
+
+@media screen and (max-width: 1920px) {
+    .only-mobile {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .only-mobile {
+        visibility: visible;
+    }
+}
+
+.footer {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.social-icon {
+    font-size: 28px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding-top: 20px;
+}
