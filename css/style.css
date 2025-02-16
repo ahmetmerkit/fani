@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    
 }
 
 .navbar {
@@ -11,7 +12,9 @@ body {
     padding-right: 12px;
     padding-left: 12px;
 }
-
+#Welcome {
+    margin-top: 106px; /* Adjust this value as needed */
+  }
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -19,7 +22,18 @@ body {
     height: 100%; /* Ensures full navbar height usage */
     padding: 0; /* Removes extra spacing */
 }
-
+.navbar-toggler {
+    width: 10%;
+    height: 10%;
+    border: white; /* Remove default border */
+    margin: 15px; /* Add margin */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1); /* Invert colors to make it white */
+    border: white; /* Remove default border */
+  }
+  
 .navbar-brand img {
     height: 90px; /* Adjust this as needed */
     width: auto; /* Maintains aspect ratio */
